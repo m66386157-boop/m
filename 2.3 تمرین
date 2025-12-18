@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int m , n;
+	cout << "enter m";
+	cin >>m;
+	m = m + 1 ;
+	n = 100 + m ;
+	cout << " m = " << m << endl;
+	cout << " n = " << n << endl;
+}
