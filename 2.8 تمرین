@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	double a = 1.0e15;
+	double b = 1.0;
+	double c = 1.0;
+	double result1 = (a + b) - a;
+	double result2 = (a - a) + b;
+	cout << fixed << "setprecision(20)";
+	cout << "a = " << a << endl;
+	cout << "b = " << b << endl;
+	cout << "c = " << c << endl << endl;
+	cout << "(a+b) - a = " << result1 << endl;
+	cout << "(a-b) + b = " << result2 << endl << endl;
+	if (result1 == result2)
+	{
+	cout << "the result are the same." << endl;
+	} else {
+		cout << " a hidden rounding error has occurred !" << endl;
+		cout << "disagreement: " << result2 - result1 << endl;
+	}
+}
