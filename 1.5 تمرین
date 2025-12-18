@@ -1,0 +1,15 @@
+# include <iostream>
+using namespace std;
+int main ()
+{
+	int m , n ;
+	m= 60 ;
+	n= 7;
+	std::cout << "m+n=" << m+n << std::endl;	
+	std::cout << "m-n=" << m-n << std::endl;
+	std::cout << "m*n=" << m*n << std::endl; 
+	std::cout << "m/n=" << m/n << std::endl;
+	std::cout << "m%n=" << m%n << std::endl;
+	
+	
+}
