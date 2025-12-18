@@ -1,0 +1,11 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+	double inches;
+	cout << "enter the length in inches :";
+	cin >> inches;
+	double centimeter = inches * 2.54;
+	cout << fixed << "setprecision(3)";
+	cout << inches << "inch =" << centimeter << "centimeter =" << endl;
+}
