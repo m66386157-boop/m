@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+	int n1 , n2 , n3;
+	cout << "enter three integers:";
+	cin>> n1>> n2>>n3;
+	int max=n1;
+	if(n2>max)max =n2;
+	if(n3>max)max =n3;
+	int min = n1;
+	if(n2<min)min =n2;
+	if(n3<min)min =n3;
+	int middle;
+	if(n1 !=max && n1 !=min)middle=n1;
+	else if(n2 !=max && n2 !=min)middle=n2;
+	else middle=n3;
+	cout <<"the middle value is:"<<middle <<endl;
+}
