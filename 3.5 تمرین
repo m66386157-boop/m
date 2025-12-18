@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int score;
+	cout <<"enter your test score";
+	cin>>score;
+	{
+	switch(score / 10)
+	case 10:
+		case 9 :cout <<"your grade is an A."<< endl ;break;
+		case 8:cout <<"your grade is an B."<< endl; break;
+		case 7:cout <<"your grade is an C."<< endl; break;
+		case 6:cout <<"your grade is an D."<< endl; break;
+		case 5:
+	    case 4:
+	    case 3:
+	    case 2:
+	    case 1:
+	    case 0: cout <<"your grade is an F."<< endl;break;
+	    default: cout<<"error: score is out of range. \n";
+	}
+	cout <<"Goodbuy."<<endl;
+}
